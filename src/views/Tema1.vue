@@ -201,48 +201,48 @@
             .tarjeta.tarjeta--azul.bg-slyder1.p-4.mt-5                
               SlyderA
                 .row.justify-content-center.align-items-center
-                  .col-5.imgs-flotantes2                        
+                  .col-lg-5.imgs-flotantes2                        
                     .color-fondo-text.bg-color
                       .color-fondo-text__texto        
                         p Cuando la función de densidad de probabilidad de una distribución continua tiene múltiples máximos locales, es común referirse a todos los máximos locales como modos de la distribución. Esta distribución continua se denomina multimodal (en contraposición a unimodal). Un modo de una distribución de probabilidad continua se considera a menudo como cualquier valor x en el que su función de densidad de probabilidad tiene un valor máximo localmente, por lo que cualquier pico es un modo.
-                      img.img-flotante2.mt-5(src='@/assets/curso/temas/sobre.svg', alt='Imagen decorativa')                         
-                  .col-5.my-3      
+                      img.img-flotante2.d-none.d-lg-block.mt-5(src='@/assets/curso/temas/sobre.svg', alt='Imagen decorativa')                         
+                  .col-lg-5.my-3      
                     img.img-a.img-t.mt-4(src='@/assets/curso/temas/img26.svg', alt='')
 
                 .row.justify-content-center.align-items-center
-                  .col-5.my-3      
-                    img.img-a.img-t.mt-4(src='@/assets/curso/temas/img26.svg', alt='')                  
-                  .col-5.imgs-flotantes2                       
+                  .col-lg-5.my-3      
+                    img.img-a.img-t.mt-4(src='@/assets/curso/temas/img26_1.svg', alt='')                  
+                  .col-lg-5.imgs-flotantes2                       
                     .color-fondo-text2.bg-color
                       .color-fondo-text2__texto        
                         p En distribuciones unimodales simétricas, como la distribución normal, la media (si está definida), la mediana y la moda coinciden. Para las muestras, si se sabe que se extraen de una distribución unimodal simétrica, la media de la muestra se puede utilizar como una estimación de la moda poblacional.
-                      img.img-flotante2.mt-3(src='@/assets/curso/temas/sobre.svg', alt='Imagen decorativa') 
+                      img.img-flotante2.d-none.d-lg-block.mt-3(src='@/assets/curso/temas/sobre.svg', alt='Imagen decorativa') 
                 .row.justify-content-center.align-items-center
-                  .col-5.imgs-flotantes2                        
+                  .col-lg-5.imgs-flotantes2                        
                     .color-fondo-text3.bg-color
                       .color-fondo-text3__texto        
                         p Moda de una muestra: la moda de una muestra es el elemento que aparece con mayor frecuencia en la colección. Por ejemplo, la moda de la muestra [1, 3, 6, 6, 6, 6, 7, 7, 12, 12, 17] es 6. Dada la lista de datos [1, 1, 2, 4, 4] su modo no es único. En tal caso, se dice que un conjunto de datos es bimodal, mientras que un conjunto con más de dos modos puede describirse como multimodal.
-                      img.img-flotante2.mt-4(src='@/assets/curso/temas/sobre.svg', alt='Imagen decorativa') 
-                  .col-5.my-3      
-                    img.img-a.img-t.mt-4(src='@/assets/curso/temas/img26.svg', alt='')
+                      img.img-flotante2.d-none.d-lg-block.mt-4(src='@/assets/curso/temas/sobre.svg', alt='Imagen decorativa') 
+                  .col-lg-5.my-3      
+                    img.img-a.img-t.mt-4(src='@/assets/curso/temas/img26_2.svg', alt='')
 
                 .row.justify-content-center.align-items-center
-                  .col-5.my-3      
-                    img.img-a.img-t.mt-4(src='@/assets/curso/temas/img26.svg', alt='')                  
-                  .col-5.imgs-flotantes2                        
+                  .col-lg-5.my-3      
+                    img.img-a.img-t.mt-4(src='@/assets/curso/temas/img26_3.svg', alt='')                  
+                  .col-lg-5.imgs-flotantes2                        
                     .color-fondo-text4.bg-color
                       .color-fondo-text4__texto        
                         p Para una muestra de una distribución continua, como [0.935 …, 1.211 …, 2.430 …, 3.668 …, 3.874 …], el concepto es inutilizable en su forma bruta, ya que no hay dos valores será exactamente el mismo, por lo que cada valor ocurrirá exactamente una vez. Para estimar la moda de la distribución subyacente, la práctica habitual es discretizar los datos asignando valores de frecuencia a intervalos de igual distancia, como para hacer un histograma, reemplazando efectivamente los valorpico. es por los puntos medios de los intervalos a los que están asignados.  
-                      img.img-flotante2.mt-5(src='@/assets/curso/temas/sobre.svg', alt='Imagen decorativa')                       
+                      img.img-flotante2.d-none.d-lg-block.mt-5(src='@/assets/curso/temas/sobre.svg', alt='Imagen decorativa')                       
 
                 .row.justify-content-center.align-items-center.pb-5
-                  .col-5.imgs-flotantes2                      
+                  .col-lg-5.imgs-flotantes2                      
                     .color-fondo-text5.bg-color
                       .color-fondo-text5__texto        
                         p.mb-5 Para muestras pequeñas o medianas, el resultado de este procedimiento es sensible a la elección del ancho del intervalo si se elige demasiado estrecho o demasiado ancho; por lo general, se debe tener una fracción considerable de los datos concentrada en un número relativamente pequeño de intervalos (5 a 10), mientras que la fracción de los datos que quedan fuera de estos intervalos también es considerable. Un enfoque alternativo es la estimación de la densidad del núcleo, que esencialmente difumina las muestras puntuales para producir una estimación continua de la función de densidad de probabilidad que puede proporcionar una estimación del modo.
-                      img.img-flotante2.mt-5(src='@/assets/curso/temas/sobre.svg', alt='Imagen decorativa')   
-                  .col-5.my-3      
-                    img.img-a.img-t.mt-4(src='@/assets/curso/temas/img26.svg', alt='')
+                      img.img-flotante2.d-none.d-lg-block.mt-5(src='@/assets/curso/temas/sobre.svg', alt='Imagen decorativa')   
+                  .col-lg-5.my-3      
+                    img.img-a.img-t.mt-4(src='@/assets/curso/temas/img26_4.svg', alt='')
                   
     ModalA(:abrir-modal.sync="modal3")
       .row.align-items-center
@@ -433,13 +433,41 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.2 Distribuciones bidimensionales, diagramas de dispersión y rectas de regresión
 
-    p(data-aos="fade-down") En el siguiente video, se invita a descubrir todo sobre las distribuciones bidimensionales, diagramas de dispersión y rectas de regresión.
-
+    p(data-aos="fade-down") La distribución bidimensional es una representación gráfica de un conjunto de puntos dentro de un diagrama de dispersión que representan individuos dentro de la misma distribución y las rectas de regresión son un método para definir la relación que existe entre estos puntos o el comportamiento de los mismos.
+    .row.justify-content-start.align-items-center.mt-5(data-aos="fade-right")
+      .col-lg-4.bg-modal-p2.p-3
+        h3.mb-0.text-white #[b Distribuciones Bidimensionales]
     .row.justify-content-center.align-items-center.mt-5           
-      .col-lg-12(data-aos="fade-left")     
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/abrctmXaS4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)       
+      .col-lg-4.my-3 
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img106.svg', alt='')
+
+      .col-lg-8 
+        p(data-aos="fade-down") En la estadística, a la distribución donde interceden dos variables, x e y, se le denomina distribución bidimensional, esto significa que a cada individuo le pertenecen dos valores, xi, yi. Y al momento de ser representados en un plano o diagrama cartesiano se les debe considerar como coordenadas de un solo punto (xi, yi). Así, toda esta distribución se visualizará como un conjunto de puntos y cada punto corresponde a un individuo de la distribución.   
+        .cajon.color-primario.p-4.mt-4(data-aos="flip-down")
+          p(data-aos="fade-down").mb-0 Como ejemplo típico de distribución bidimensional, se pueden tomar los errores de precisión del fuego de artillería. El error total se compone de dos desviaciones independientes: error en la distancia de disparo X y desviación lateral Y de la dirección de disparo. Un número tan relativamente pequeño de puntos clasifica esta distribución entre las distribuciones discretas.
+
+    p(data-aos="fade-down").mt-5 y otra de momento para el tema de:
+
+    .row.justify-content-start.align-items-center.mt-5(data-aos="fade-right")
+      .col-lg-2.bg-modal-p2.p-3
+        h3.mb-0.text-white #[b Correlación]
+
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-8
+        p(data-aos="fade-down") La correlación es una medida estadística que expresa el grado en que dos variables están relacionadas linealmente (lo que significa que cambian juntas a una tasa constante). Es una herramienta común para describir relaciones simples sin hacer una declaración sobre causa y efecto. La correlación se mide mediante un coeficiente llamado coeficiente de correlación de la muestra, r, la cual cuantifica la fuerza de la relación. Las correlaciones también se prueban para determinar la significancia estadística.
+
+        .cajon.color-acento-botones.p-4.mt-4(data-aos="flip-down")
+          p(data-aos="fade-down").mb-0 Las limitaciones de correlación es que esta no puede considerar la presencia o el efecto de otras variables fuera de las dos que se están explorando. Es importante destacar que la correlación no nos dice sobre causa y efecto. La correlación tampoco puede describir con precisión las relaciones curvilíneas.
+
+      .col-lg-4.my-3.imgs-flotantes
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img107.jpg', alt='')
+        img.img-flotante(data-aos="zoom-in")(src='@/assets/curso/temas/box.svg', alt='Imagen decorativa')     
+
+    .bloque-texto-a.color-secundario.p-4.p-md-5.mt-5(data-aos="fade-down") 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-12
+          .bloque-texto-a__texto.p-4
+            p.mb-0 Las correlaciones son útiles para describir relaciones simples entre datos. Por ejemplo, imagine que está mirando un conjunto de datos de campings en un parque de montaña. Quiere saber si existe una relación entre la elevación del camping (qué tan alto está la montaña) y la temperatura media alta en verano. Para cada campamento individual, tiene dos medidas: elevación y temperatura. Cuando compara estas dos variables en su muestra con una correlación, puede encontrar una relación lineal: a medida que aumenta la elevación, la temperatura desciende. Están correlacionados negativamente.
 
     AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
       .row.justify-content-center.align-items-center.pb-4(titulo="Diagramas de dispersión")
@@ -553,10 +581,10 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    h3.mb-1 Para profundizar aún más en este ítem, diríjase al:
+                    h5.mb-1 Para profundizar aún más en este ítem, diríjase al:
                     p.text-small.mb-0 #[b Anexo 1] - Distribuciones bidimensionales y rectas de regresión.
                   .col-sm-auto
-                    a.boton.color-primario(:href="obtenerLink('/downloads/anexo_1_distribuciones_bidimensionales_y_rectas_de_regresion.pdf')" target="_blank")
+                    a.boton.color-primario(:href="obtenerLink('downloads/anexo_1_distribuciones_bidimensionales_y_rectas_de_regresion.pdf')" target="_blank")
                       span Descargar PDF
                       i.fas.fa-file-download
 
@@ -566,7 +594,7 @@
 
     p(data-aos="fade-down") A continuación, se exponen los diferentes tipos de distribución y cómo aplicarlos en la vida profesional.
     
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mt-5
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mt-5(data-aos="fade-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/img51.jpg')})`}"
       )
@@ -711,10 +739,10 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    h3.mb-1 Para profundizar aún más en este ítem, diríjase al:
+                    h5.mb-1 Para profundizar aún más en este ítem, diríjase al:
                     p.text-small.mb-0 #[b Anexo 2] - Modelos de probabilidad discretos.
                   .col-sm-auto
-                    a.boton.color-primario(:href="obtenerLink('/downloads/anexo_2_modelos_de_probabilidad_discretos.pdf')" target="_blank")
+                    a.boton.color-primario(:href="obtenerLink('downloads/anexo_2_modelos_de_probabilidad_discretos.pdf')" target="_blank")
                       span Descargar PDF
                       i.fas.fa-file-download  
 
@@ -743,7 +771,7 @@
                   .col.mb-3.mb-sm-0
                     p.text-small.mb-0 #[b Anexo 1] - En el Anexo 3 - Distribuciones continuas encontrarán una tabla que ofrece una descripción general de varias distribuciones continuas que se usan comúnmente en el modelado de análisis de riesgos, de modo que pueda enfocarse más fácilmente en cuáles podrían ser las más apropiadas para sus necesidades de modelado. Siga los enlaces para obtener una explicación detallada de cada uno. Se ha utilizado el nombre más común para cada distribución..
                   .col-sm-auto
-                    a.boton.color-primario(:href="obtenerLink('/downloads/anexo_3_distribuciones_continuas.pdf')" target="_blank")
+                    a.boton.color-primario(:href="obtenerLink('downloads/anexo_3_distribuciones_continuas.pdf')" target="_blank")
                       span Descargar PDF
                       i.fas.fa-file-download              
 
@@ -786,10 +814,10 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    h3.mb-1 Para profundizar aún más en este ítem, diríjase al:
+                    h5.mb-1 Para profundizar aún más en este ítem, diríjase al:
                     p.text-small.mb-0 #[b Anexo 3] - Distribuciones continuas.
                   .col-sm-auto
-                    a.boton.color-primario(:href="obtenerLink('/downloads/anexo_3_distribuciones_continuas.pdf')" target="_blank")
+                    a.boton.color-primario(:href="obtenerLink('downloads/anexo_3_distribuciones_continuas.pdf')" target="_blank")
                       span Descargar PDF
                       i.fas.fa-file-download 
 
@@ -861,7 +889,7 @@
       .col-lg-5.my-3
         img.img-a.img-t(src='@/assets/curso/temas/img82.jpg', alt='')
     
-    .row.justify-content-start.align-items-center.mt-5
+    .row.justify-content-start.align-items-center.mt-5(data-aos="fade-left")
       .col-lg-4.bg-modal-p2.p-3
         h3.mb-0.text-white #[b Distribución de medias muestrales]
 
@@ -896,7 +924,7 @@
     .cajon.color-acento-botones.p-4.mt-5(data-aos="flip-down")
       p(data-aos="fade-down").mb-0 Este resultado se deriva del hecho de que cualquier combinación lineal de variables aleatorias normales independientes también se distribuye normalmente. Esto significa que para dos variables aleatorias normales independientes X, Y y cualquier constante a y b, Ax + By serán distribuidos normalmente. En el caso de la media muestral, la combinación lineal es = (1 / n) * (X1 + X2 + … Xn).  
 
-    .row.justify-content-start.align-items-center.mt-5
+    .row.justify-content-start.align-items-center.mt-5(data-aos="fade-left")
       .col-lg-4.bg-modal-p2.p-3
         h3.mb-0.text-white #[b Teorema del Límite central]
 
@@ -936,27 +964,27 @@
         img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img99.svg', alt='')
         p.mt-4.mb-0 Debe darse cuenta de que la media de una muestra individual probablemente no será idéntica a la media de su población; es decir, habrá algún “error” entre X y μ. Algunas medias de muestra estarán relativamente cerca de μ y otras relativamente lejos. El error estándar proporciona una medida de la distancia estándar entre X y μ.  
 
-    .row.justify-content-start.align-items-center.mt-5
+    .row.justify-content-start.align-items-center.mt-5(data-aos="fade-left")
       .col-lg-7.bg-modal-p2.p-3
         h3.mb-0.text-white #[b Puntuaciones Z y ubicación dentro de la distribución de medias muestrales]
 
     .row
-      .col-lg-6.tarjeta-avatar-b.mt-5
+      .col-lg-6.tarjeta-avatar-b.mt-5(data-aos="fade-left")
         .tarjeta-avatar-b__img
           img.m-top(src='@/assets/curso/temas/img100.svg' alt='AvatarTop')
         .tarjeta.color-primario
           .p-4
             p.tex-black Dentro de la distribución de las medias muestrales, la ubicación de cada media muestral se puede especificar mediante una puntuación Z,
-            img.img-t.img-r(data-aos="zoom-in")(src='@/assets/curso/temas/img101.svg', alt='')
+            img.img-t.img-r.my-3(data-aos="zoom-in")(src='@/assets/curso/temas/img101.svg', alt='')
 
-      .col-lg-6.tarjeta-avatar-b.mt-5
+      .col-lg-6.tarjeta-avatar-b.mt-5(data-aos="fade-right")
         .tarjeta-avatar-b__img
           img.m-top(src='@/assets/curso/temas/img100.svg' alt='AvatarTop')
         .tarjeta.color-primario
           .p-4
             p.tex-black Debe darse cuenta de que la media de una muestra individual probablemente no será idéntica a la media de su población; es decir, habrá algún “error” entre X y μ. Algunas medias de muestra estarán relativamente cerca de μ y otras relativamente lejos. El error estándar proporciona una medida de la distancia estándar entre X y μ.
 
-    .row.justify-content-start.align-items-center.mt-5
+    .row.justify-content-start.align-items-center.mt-5(data-aos="fade-right")
       .col-lg-10.green-p.p-3
         h3.mb-0.text-white #[b El valor numérico de la puntuación Z indica la distancia entre  y μ medida en términos del error estándar.]
 
@@ -976,7 +1004,7 @@
     .row.justify-content-center.align-items-center.mt-5           
       .col-lg-7
         LineaTiempoD.color-acento-contenido
-          .row.justify-content-center.align-items-center(numero="1" titulo="Prueba de hipótesis")
+          .row.justify-content-center.align-items-center.pb-4(numero="1" titulo="Prueba de hipótesis")
             .col-11
               p Hay dos tipos de estimaciones que encontraremos: estimaciones puntuales y estimaciones de intervalo. La estimación puntual es el mejor valor individual. Un buen estimador debe satisfacer tres condiciones:
               .row.mt-4
@@ -1001,15 +1029,15 @@
                     .p-4.ps-1
                       p.mb-0 #[b Relativamente eficiente:] el estimador tiene la varianza más pequeña de todos los estimadores que podrían usarse.
 
-          .row.justify-content-center.align-items-center(numero="2" titulo="Intervalos de confianza")
+          .row.justify-content-center.align-items-center.pb-4(numero="2" titulo="Intervalos de confianza")
             .col-11
               p La estimación puntual va a ser diferente del parámetro de población porque debido al error de muestreo, y no hay forma de saber quién se acerca al parámetro real. Por esta razón, a los estadísticos les gusta dar una estimación de intervalo que es un rango de valores utilizados para estimar el parámetro. Un intervalo de confianza es una estimación de intervalo con un nivel de confianza específico. Un nivel de confianza es la probabilidad de que la estimación del intervalo contenga el parámetro. El nivel de confianza es 1-alfa y esta se encuentra dentro del intervalo de confianza.
                 
-          .row.justify-content-center.align-items-center(numero="3" titulo="Error máximo de la estimación")
+          .row.justify-content-center.align-items-center.pb-4(numero="3" titulo="Error máximo de la estimación")
             .col-11
               p El error máximo de la estimación se indica con E y es la mitad del ancho del intervalo de confianza. El intervalo de confianza básico para una distribución simétrica se establece para que sea la estimación puntual menos el error máximo de la estimación es menor que el parámetro de población real que es menor que la estimación puntual más el error máximo de la estimación. Esta fórmula funcionará para medias y proporciones, porque usarán las distribuciones Z o T que son simétricas.
  
-          .row.justify-content-center.align-items-center(numero="3" titulo="Prueba de hipótesis")
+          .row.justify-content-center.align-items-center.pb-4(numero="4" titulo="Prueba de hipótesis")
             .col-11
               p Cuando evalúas una hipótesis, debes tener en cuenta tanto la variabilidad de tu muestra como el tamaño de la muestra. La prueba de hipótesis se usa generalmente cuando se comparan dos o más grupos. Por ejemplo, puede implementar protocolos para realizar la intubación en pacientes pediátricos en el entorno prehospitalario. Para evaluar si estos protocolos tuvieron éxito en mejorar las tasas de intubación, podría medir la tasa de intubación a lo largo del tiempo en un grupo asignado aleatoriamente a la capacitación en los nuevos protocolos y compararla con la tasa de intubación a lo largo del tiempo en otro grupo de control que no recibió capacitación en los nuevos protocolos.
               img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img104.svg', alt='')
@@ -1018,10 +1046,440 @@
                   .cajon.color-primario.p-4.mt-4
                     p.mb-0 Cuando evalúas una hipótesis, debes tener en cuenta tanto la variabilidad de tu muestra como el tamaño de la muestra.  Con base en esta información, le gustaría hacer una evaluación de si las diferencias que ve son significativas o si es probable que se deba a la casualidad. Esto se hace formalmente a través de un proceso llamado prueba de hipótesis.
                 .col-lg-4
-                  img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img105.svg', alt='')
+                  img.img-t.img-a(src='@/assets/curso/temas/img105.svg', alt='')
   
       .col-lg-5
         img.img-a.img-t(src='@/assets/curso/temas/img19.svg', alt='')
+
+    p(data-aos="fade-down").mt-5 Cinco pasos en la prueba de hipótesis:
+    .row.justify-content-center.align-items-center.mt-5           
+      .col-lg-10
+        .row.justify-content-evenly.align-items-stretch        
+          .col-lg-2.bg-modal.p-3.my-3(data-aos="fade-left")
+            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img108.svg', alt='')
+            p.text-center.mb-0.mt-2 #[b Especificar la hipótesis nula]
+          .col-lg-2.bg-modal.p-3.my-3(data-aos="fade-left")
+            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img109.svg', alt='')
+            p.text-center.mb-0.mt-2 #[b Especificar la hipótesis alternativa]
+          .col-lg-2.bg-modal.p-3.my-3(data-aos="fade-down")        
+            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img110.svg', alt='')
+            p.text-center.mb-0.mt-2 #[b Establecer el nivel de significación (α)]
+          .col-lg-2.bg-modal.p-3.my-3(data-aos="fade-right")       
+            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img111.svg', alt='')
+            p.text-center.mb-0.mt-2 #[b Calcule la estadística de prueba y el valor P correspondiente]
+          .col-lg-2.bg-modal.p-3.my-3(data-aos="fade-right")      
+            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img112.svg', alt='')
+            p.text-center.mb-0.mt-2 #[b Esbozando una conclusión]          
+
+    p(data-aos="fade-down").mt-5 Para ampliar la información sobre estos importantes pasos en la estimación y la prueba de hipótesis, se invita a revisar:
+
+    TabsA.color-secundario.mt-5(data-aos="fade-left")
+      .tarjeta.color-secundario--borde.p-4(titulo="Especifique la hipótesis nula")    
+        .row.justify-content-center.align-items-center        
+          .col-lg-11
+            h5 Especifique la hipótesis nula
+            p La hipótesis alternativa (HA) es la afirmación de que existe un efecto o diferencia. Esta suele ser la hipótesis que el investigador está interesado en probar. La hipótesis alternativa puede ser unilateral (solo proporciona una dirección, por ejemplo, inferior) o bilateral. A menudo, utilizamos pruebas de dos caras incluso cuando nuestra verdadera hipótesis es unilateral, porque requiere más evidencia en contra de la hipótesis nula para aceptar la hipótesis alternativa.
+
+            .row.justify-content-start.align-items-center.mt-4
+              .col-lg-2.green-p.p-2
+                h3.mb-0.text-white #[b Ejemplos] 
+            .row.justify-content-center.align-items-center.mt-4
+              .col-lg-11
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-caret-right
+                    p.mb-0 La tasa de éxito de la intubación difiere según la edad del paciente tratado (bilateral).
+                  li 
+                    i.fas.fa-caret-right
+                    p.mb-0 El tiempo hasta la reanimación de un paro cardíaco es menor para el grupo de intervención que para el control (unilateral).
+                  li 
+                    i.fas.fa-caret-right
+                    p.mb-0 Existe una asociación entre el tipo de lesión y si el paciente recibió o no una vía intravenosa en el entorno prehospitalario (bilateral).
+     
+      .tarjeta.color-secundario--borde.p-4(titulo="Especifique la hipótesis alternativa")    
+        .row.justify-content-center.align-items-center        
+          .col-lg-11
+            h5 Especifique la hipótesis alternativa
+            p La hipótesis alternativa (HA) es la afirmación de que existe un efecto o diferencia. Esta suele ser la hipótesis que el investigador está interesado en probar. La hipótesis alternativa puede ser unilateral (solo proporciona una dirección, por ejemplo, inferior) o bilateral. A menudo, utilizamos pruebas de dos caras incluso cuando nuestra verdadera hipótesis es unilateral, porque requiere más evidencia en contra de la hipótesis nula para aceptar la hipótesis alternativa.
+            .row.justify-content-start.align-items-center.mt-4
+              .col-lg-2.green-p.p-2
+                h3.mb-0.text-white #[b Ejemplos] 
+            .row.justify-content-center.align-items-center.mt-4
+              .col-lg-11
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-caret-right
+                    p.mb-0 La tasa de éxito de la intubación difiere según la edad del paciente tratado (bilateral).
+                  li 
+                    i.fas.fa-caret-right
+                    p.mb-0 El tiempo hasta la reanimación de un paro cardíaco es menor para el grupo de intervención que para el control (unilateral).
+                  li 
+                    i.fas.fa-caret-right
+                    p.mb-0 Existe una asociación entre el tipo de lesión y si el paciente recibió o no una vía intravenosa en el entorno prehospitalario (bilateral).
+ 
+      .tarjeta.color-secundario--borde.p-4(titulo="Establecer el nivel ")    
+        .row.justify-content-center.align-items-center        
+          .col-lg-11
+            h5 Establecer el nivel de significancia (α)
+            p El nivel de significancia (denotado por la letra griega alfa α) generalmente se establece en 0,05. Esto significa que hay 5% de probabilidad de que acepte su hipótesis alternativa cuando su hipótesis nula sea realmente cierta. Cuanto menor sea el nivel de significancia, mayor será la carga de la prueba necesaria para rechazar la hipótesis nula o, en otras palabras, para respaldar la hipótesis alternativa.
+            img.img-a.img-t.mt-3(src='@/assets/curso/temas/img113.svg', alt='')
+
+      .tarjeta.color-secundario--borde.p-4(titulo="Calcule la estadística")    
+        .row.justify-content-center.align-items-center        
+          .col-lg-11
+            h5 Calcule la estadística de prueba y el valor P correspondiente
+            p En otra sección presentamos algunas estadísticas de prueba básicas para evaluar una hipótesis. La prueba de hipótesis generalmente utiliza una estadística de prueba que compara grupos o examina asociaciones entre variables. Cuando se describe una sola muestra sin establecer relaciones entre variables, se suele utilizar un intervalo de confianza.
+            .cajon.color-primario.p-4.mt-4
+              p.mb-0 El valor p describe la probabilidad de obtener un estadístico de muestra tan o más extremo por casualidad solo si su hipótesis nula es cierta. Este valor p se determina en función del resultado de su estadística de prueba. Sus conclusiones sobre la hipótesis se basan en su valor p y su nivel de significancia.           
+            .row.justify-content-start.align-items-center.mt-4
+              .col-lg-2.green-p.p-2
+                h3.mb-0.text-white #[b Ejemplos] 
+            .row.justify-content-center.align-items-center.mt-4
+              .col-lg-11
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-caret-right
+                    p.mb-0 #[b Valor p = 0,01.] Esto sucederá 1 de cada 100 veces por pura casualidad si su hipótesis nula es cierta. No es probable que suceda estrictamente por casualidad.
+                  li 
+                    i.fas.fa-caret-right
+                    p.mb-0 #[b Valor p = 0,75.] Esto sucederá 75 de cada 100 veces por pura casualidad si su hipótesis nula es cierta. Es muy probable que ocurra estrictamente por casualidad.
+
+    .row.justify-content-start.align-items-center.mt-5(data-aos="fade-right")
+      .col-lg-4.bg-modal-p2.p-3
+        h3.mb-0.text-white #[b Precauciones sobre los valores p]
+    p(data-aos="fade-down").mt-5 El tamaño de la muestra afecta directamente su valor p. Los tamaños de muestra grandes producen valores p pequeños incluso cuando las diferencias entre los grupos no son significativas. Siempre debe verificar la relevancia práctica de sus resultados. Por otro lado, un tamaño de muestra demasiado pequeño puede provocar que no se identifique una diferencia cuando realmente existe. 
+
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mt-5(data-aos="fade-down")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/img114.jpg')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Se debe planificar el tamaño de la muestra con anticipación para tener  suficiente información de su muestra para mostrar una relación o diferencia significativa, si existe. Consulte el cálculo de un tamaño de muestra para obtener más información. 
+
+    .row.justify-content-center.align-items-stretch.mt-5     
+      .col-lg-6.col-bg-1.p-5(data-aos="fade-left")
+        img.img-t(src='@/assets/curso/temas/img115.svg', alt='')
+        p.mt-4(data-aos="fade-down") #[b Ejemplo 1]
+        p.mb-0(data-aos="fade-down") Las edades medias fueron significativamente diferentes entre los dos grupos (16,2 años frente a 16,7 años; p = 0,01; n = 1.000). ¿Es esta una diferencia importante? Probablemente no, pero el gran tamaño de la muestra ha dado como resultado un valor p pequeño.
+
+      .col-lg-6.col-bg-2.p-5(data-aos="fade-right")
+        img.img-t(src='@/assets/curso/temas/img115.svg', alt='')
+        p.mt-4(data-aos="fade-down") #[b Ejemplo 2]
+        p.mb-0(data-aos="fade-down") Las edades medias no fueron significativamente diferentes entre los dos grupos (10,4 años frente a 16,7 años; p = 0,40, n = 10). ¿Es esta una diferencia importante? Podría ser, pero debido a que el tamaño de la muestra es pequeño, no se puede determinar con certeza si se trata de una verdadera diferencia o simplemente sucedió debido a la variabilidad natural en la edad dentro de estos dos grupos. 
+
+    p(data-aos="fade-down").mt-5 Si realiza una gran cantidad de pruebas para evaluar una hipótesis (lo que se denomina prueba múltiple), debe controlar esto en su designación del nivel de significancia o en el cálculo del valor p. Por ejemplo, si tres resultados miden la efectividad de un fármaco u otra intervención, tendrá que ajustar estos tres análisis.
+
+    .row.justify-content-start.align-items-center.mt-5
+      .col-lg-3.bg-modal-p2.p-3(data-aos="fade-left")
+        h3.mb-0.text-white #[b Sacar una conclusión]
+
+    .row.justify-content-center.align-items-stretch.mt-5
+      .col-lg-6.tarjeta-avatar-b.my-3(data-aos="fade-left")
+        .tarjeta-avatar-b__img.mr
+          img.img-w(src='@/assets/curso/temas/img100.svg' alt='AvatarTop')
+        .tarjeta.color-primario.bg-avatar1
+          .p-4.ps-1
+            p.mb-0 #[b Valor p < = nivel de significancia (a) = >, rechaza su hipótesis nula a favor de su hipótesis alternativa. El resultado es estadísticamente significativo.]
+
+      .col-lg-6.tarjeta-avatar-b.my-3(data-aos="fade-right")
+        .tarjeta-avatar-b__img.mr
+          img.img-w(src='@/assets/curso/temas/img100.svg' alt='AvatarTop')
+        .tarjeta.color-primario.bg-avatar2
+          .p-4.ps-1
+            p.mb-0.pt-2.mt-1 #[b Valor p > nivel de significancia (a) = > no rechaza su hipótesis nula. El resultado no es estadísticamente significativo.]
+
+    .bloque-texto-a.color-secundario.p-4.p-md-5.mt-5(data-aos="fade-right") 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-12
+          .bloque-texto-a__texto.p-4
+            p.mb-0(data-aos="fade-down") La prueba de hipótesis no está configurada para que pueda probar absolutamente una hipótesis nula. Por lo tanto, cuando no se encuentra evidencia en contra de la hipótesis nula, no se puede rechazar la hipótesis nula. Cuando se encuentra evidencia suficientemente fuerte en contra de la hipótesis nula, se rechaza la hipótesis nula. Sus conclusiones también se traducen en una declaración sobre su hipótesis alternativa. Cuando presente los resultados de una prueba de hipótesis, incluya también las estadísticas descriptivas en sus conclusiones. Informe valores p exactos en lugar de un rango determinado. Por ejemplo, “La tasa de intubación difirió significativamente según la edad del paciente y los pacientes más jóvenes tienen una tasa más baja de intubación exitosa (p = 0,02)”. Aquí hay dos ejemplos más con la conclusión expresada de varias formas diferentes. 
+
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-7
+        .color1.p-4(data-aos="flip-down")
+          h5(data-aos="fade-down") Ejemplo
+          p(data-aos="fade-down") H0: no hay diferencia en la supervivencia entre el grupo de intervención y el de control.
+          p(data-aos="fade-down") HA: existe una diferencia en la supervivencia entre el grupo de intervención y el de control. 
+          p(data-aos="fade-down") α = 0,05: aumento del 20% en la supervivencia para el grupo de intervención; valor p = 0,002.
+
+        .color2.p-4(data-aos="flip-down")
+          h5(data-aos="fade-down") Conclusión
+          p(data-aos="fade-down") Rechace la hipótesis nula a favor de la hipótesis alternativa. La diferencia en la supervivencia entre el grupo de intervención y el de control fue estadísticamente significativa. Hubo un aumento del 20% en la supervivencia para el grupo de intervención en comparación con el control (p = 0,001).
+      .col-lg-5
+        img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img116.svg', alt='')
+
+
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-5
+        img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img117.svg', alt='')    
+      .col-lg-7
+        .color1.p-4(data-aos="flip-down")
+          h5(data-aos="fade-down") Ejemplo
+          p(data-aos="fade-down") H0: no hay diferencia en la supervivencia entre el grupo de intervención y el de control.
+          p(data-aos="fade-down") HA: existe una diferencia en la supervivencia entre el grupo de intervención y el de control.
+          p(data-aos="fade-down") α = 0,05: aumento del 5% en la supervivencia entre el grupo de intervención y el de control; valor p = 0,20.
+
+
+        .color2.p-4(data-aos="flip-down")
+          h5(data-aos="fade-down") Conclusión
+          p(data-aos="fade-down") No rechace la hipótesis nula. La diferencia en la supervivencia entre el grupo de intervención y el de control no fue estadísticamente significativa. No hubo un aumento significativo en la supervivencia para el grupo de intervención en comparación con el control (p = 0,20).
+
+    Separador 
+    #t_1_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.6 Formulario de muestreo y estimación
+
+    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mt-5(data-aos="fade-down")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/img114.jpg')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Las fórmulas que se usan para calcular la media muestral y todas las demás estadísticas muestrales son ejemplos de fórmulas de estimación o estimadores. El valor particular que calculamos a partir de observaciones de muestra utilizando un estimador se denomina estimación. Por ejemplo, el valor calculado de la media muestral en una muestra determinada se denomina estimación puntual de la media poblacional. Las tres propiedades deseables de un estimador son:
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-11
+        .row.justify-content-center.align-items-center
+          .col-lg-4.color2.p-4.br-white1
+            img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img119.svg', alt='')
+            h5.mt-2 Insesgado
+            p.mt-4 Tu valor esperado es igual al parámetro que se está estimando.
+          .col-lg-4.color3.p-4.py-5.br-white1
+            img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img120.svg', alt='')
+            h5.mt-2 Eficiencia
+            p.mt-4 Tiene la varianza más baja en comparación con otros estimadores insesgados del mismo parámetro.
+          .col-lg-4.color2.p-4.br-white1
+            img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img121.svg', alt='')
+            h5.mt-2 Coherencia
+            p.mt-4 A medida que aumenta el tamaño de la muestra, el error muestral disminuye y las estimaciones se acercan al valor real.
+
+    .tarjeta.color-secundario.p-3.mt-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/book.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              p.mb-0 #[b En el Anexo 4 - Formulario de muestreo], se puede encontrar una clasificación por tablas de fórmulas más utilizadas y necesarias para llevar a cabo todo lo relacionado a procesos de muestreo de datos.
+            .col-sm-auto
+              a.boton.color-primario(:href="obtenerLink('downloads/anexo_4_formulario_de_muestreo.pdf')" target="_blank")
+                span Descargar PDF
+                i.fas.fa-file-download 
+
+    Separador 
+    #t_1_7.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.7 Probabilidad de sucesos compatibles e incompatibles                              
+
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mt-5(data-aos="fade-down")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/img122.jpg')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Dos o más eventos son compatibles, si pueden cumplirse simultáneamente; es decir, si tienen al menos un resultado común. Por el contrario, son incompatibles o mutuamente excluyentes y su intersección es el conjunto vacío Ø si se analiza el siguiente experimento de lanzar un dado. 
+
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-7
+        p(data-aos="fade-down") Comencemos con el siguiente experimento: tiramos un dado de seis caras y vemos cuál es el resultado. Consideremos los siguientes eventos A= {2, 3}, B= {1,2}, C= {5}.
+
+        p(data-aos="fade-down") Observamos que, si extraemos 2, luego A está satisfecho, así como B. Decimos que los eventos son compatibles, esto significa que pueden ocurrir simultáneamente. Por el contrario, los eventos B y C son incompatibles, ya que los dos no pueden suceder simultáneamente.    
+
+        .cajon.color-primario.p-4.mt-4(data-aos="flip-down")
+          p(data-aos="fade-down").mb-0 Para ver cuando dos eventos son compatibles o no, podemos observar que A y B tienen un elemento común: 2, por lo tanto, serán compatibles. De lo contrario, A y C no tienen ningún elemento común y, por tanto, son incompatibles. Expresamos esto diciendo que dos eventos A y B son compatibles si:
+
+        img.img-t.img-a.my-4(data-aos="zoom-in")(src='@/assets/curso/temas/img123.svg', alt='')
+
+      .col-lg-5.my-3
+        img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img124.svg', alt='')
+
+    .bloque-texto-a.color-acento-botones.p-4.p-md-5.mt-5(data-aos="fade-right") 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-12
+          .bloque-texto-a__texto.p-4
+            p.mb-0(data-aos="fade-down") Si tenemos tres o más eventos, decimos que son incompatibles de dos en dos si dos eventos son incompatibles (de manera similar, son compatibles de dos en dos si dos eventos son compatibles). En nuestro caso A, B y C no son incompatibles de dos en dos, ya que, aunque A y C, al igual que B y C son incompatibles, A y B son compatibles.
+
+    .row.justify-content-center.align-items-stretch.mt-5     
+      .col-lg-6.col-bg-1.p-5(data-aos="fade-left")
+        p.mt-4(data-aos="fade-down") #[b Eventos:]
+        p(data-aos="fade-down") A = {2,3} B = {1,2} C = {4,5} cumplen con lo siguiente: 
+        p(data-aos="fade-down") A y B son compatibles, y B y C son incompatibles, B Ո C = Ø
+        img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img125.svg', alt='')
+
+      .col-lg-6.col-bg-2.p-5(data-aos="fade-right")
+        p.mt-4(data-aos="fade-down") #[b Evento incompatible. ]
+        img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img126.svg', alt='') 
+
+    Separador 
+    #t_1_8.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.8 Cálculo de probabilidades y probabilidad condicionada 
+    .row.justify-content-center.align-items-center.mt-5           
+      .col-lg-4.imgs-flotantes.my-3
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img127.svg', alt='')
+        img.img-w1.img-flotante(data-aos="zoom-in")(src='@/assets/curso/temas/lupa.svg', alt='Imagen decorativa')              
+      .col-lg-8
+        p(data-aos="fade-down") Una probabilidad es un modelo representado matemáticamente de un fenómeno aleatorio. Las probabilidades pueden ser marginales, conjuntas o condicionales.
+        p(data-aos="fade-down") Comprender sus diferencias y cómo manipularlas es clave para tener éxito en la comprensión de los fundamentos de las estadísticas.
+        .row.justify-content-start.align-items-center.my-4.ps-3(data-aos="flip-down")     
+          .col-lg-10.bg-modal-p3.p-2
+            h3.mb-0.text-white #[b Cálculo de probabilidades de eventos compatibles e incompatibles]
+        p(data-aos="fade-down") Se explicará cómo calcular la probabilidad de un evento aislado con la ley de Laplace y calcular la probabilidad de la unión de dos eventos cuando son compatibles y cuándo son incompatibles.
+
+    .row.justify-content-start.align-items-stretch.ps-3.mt-5         
+      .col-lg-3.green-p.p-3(data-aos="fade-down")
+        p(data-aos="fade-down").mb-0.text-white #[b Ley de Laplace:] 
+
+    .row.justify-content-between.align-items-stretch.mt-5         
+      .col-lg-4.color4.br-white1.br-radius.p-4(data-aos="fade-left")
+        p.mt-4(data-aos="fade-down") No es más que la fórmula para calcular la probabilidad de que ocurra un evento aislado. Cuando en un experimento aleatorio, todos los eventos tienen la misma probabilidad de ocurrir, la probabilidad de que ocurra un evento A es:
+
+        img.img-t.img-a.my-4(data-aos="zoom-in")(src='@/assets/curso/temas/img128.svg', alt='')
+        p(data-aos="fade-down") En el numerador colocamos el número de casos favorables para que ocurra el evento A y en el denominador colocamos el número de eventos posibles. Por ejemplo, en un dado, ¿cuál es la probabilidad de obtener un 2?       
+        
+      .col-lg-4.color3.br-white1.br-radius.p-4(data-aos="fade-down")
+        p.mt-4.mb-0(data-aos="fade-down") En este caso, el número de casos favorables es 1, ya que el dado tiene solo un 2. El número de casos posibles es 6, que son los números que tiene un dado. Por lo tanto, la probabilidad de que salga un 2 se puede escribir como P(2) y es igual a:
+        img.img-t.img-a.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/img129.svg', alt='') 
+        
+      .col-lg-4.color2.br-white1.br-radius.p-4(data-aos="fade-right")
+        p.mt-4(data-aos="fade-down") El valor de la probabilidad de ocurrencia del evento A estará entre 0 y 1:
+
+        img.img-t.img-a.my-4(data-aos="zoom-in")(src='@/assets/curso/temas/img130.svg', alt='')
+        p.mb-0(data-aos="fade-down") Siendo 1 la probabilidad del evento seguro (siempre ocurrirá) y 0 es la probabilidad del evento imposible (nunca ocurrirá).         
+        
+    .row.justify-content-start.align-items-center.mt-5         
+      .col-lg-7
+        p(data-aos="fade-down") Cómo calcular la probabilidad de ocurrencia de A o B, si los eventos son incompatibles: Si A y B son dos eventos incompatibles, es decir, no pueden ocurrir al mismo tiempo, la probabilidad de que ocurra A o B será la suma de las probabilidades de que cada evento ocurra por separado.
+
+    .row.justify-content-center.align-items-center
+      .col-lg-5
+        img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img132.svg', alt='')
+        p(data-aos="fade-down").my-4 La probabilidad de obtener una bola blanca es:
+        img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img133.svg', alt='')
+        p(data-aos="fade-down").my-4 La probabilidad de obtener una bola negra es: 
+        img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img134.svg', alt='')
+        p(data-aos="fade-down").my-4 Por lo tanto, la probabilidad de obtener una bola blanca o una bola negra es:
+        img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img135.svg', alt='')        
+      .col-lg-7
+        img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/curso/temas/img131.svg', alt='')
+
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-5
+        img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/curso/temas/img136.svg', alt='')
+
+      .col-lg-7
+        p(data-aos="fade-down") Cómo calcular la probabilidad de que ocurra A o B, si los eventos son compatibles: si A y B son dos eventos compatibles, es decir, pueden ocurrir al mismo tiempo, entonces la probabilidad de que ocurran A o B será: 
+        img.img-t.img-a.my-4(data-aos="zoom-in")(src='@/assets/curso/temas/img137.svg', alt='')        
+        p(data-aos="fade-down") P (A ∩ B) dice: la probabilidad de que ocurran A y B.
+
+    .bloque-texto-a.color-acento-botones.p-4.p-md-5.mt-5(data-aos="fade-right") 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-12
+          .bloque-texto-a__texto.p-4
+            p.mb-0(data-aos="fade-down") Esta vez, la suma de las probabilidades de que cada evento ocurra por separado debe restarse de la probabilidad de que los dos eventos ocurran al mismo tiempo. Por ejemplo, calcular la probabilidad de que al lanzar un dado el número obtenido sea par o que sea un 4. En este caso, el evento “obtener un número par” y el evento “obtener un 4” son compatibles, porque si obtenemos un 4 están sucediendo ambos eventos a la vez. Por lo tanto, la probabilidad de obtener 4 o un número par se calculará con la fórmula: 
+
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-5
+        img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img138.svg', alt='')
+        p(data-aos="fade-down").my-4 La probabilidad de obtener un número par es:
+        img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img139.svg', alt='')
+        p(data-aos="fade-down").my-4 La probabilidad de obtener un 4 es:
+        img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img140.svg', alt='')
+        p(data-aos="fade-down").my-4 La probabilidad de obtener un número par y un 4 es:
+        img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img141.svg', alt='')        
+      .col-lg-7
+        img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/curso/temas/img142.svg', alt='')
+ 
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-5
+        img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/curso/temas/img143.svg', alt='')
+
+      .col-lg-7
+        p(data-aos="fade-down") Solo hay una posibilidad entre 6 ya que 4 es el único número que cumple ambos eventos al mismo tiempo. Finalmente, la probabilidad de obtener un número par o 4 es:
+        img.img-t.img-a.my-4(data-aos="zoom-in")(src='@/assets/curso/temas/img144.svg', alt='')        
+        p(data-aos="fade-down") Que la sustitución de cada término por su valor nos queda a nosotros:
+        img.img-t.img-a.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/img145.svg', alt='')        
+
+    .row.justify-content-start.align-items-center.mt-5       
+      .col-lg-3.green-p.p-3(data-aos="fade-down")
+        p(data-aos="fade-down").mb-0.text-white #[b Probabilidad condicionada] 
+
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mt-5(data-aos="fade-down")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/img146.jpg')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 En la teoría de la probabilidad, la probabilidad condicionada o condicional es una medida de la probabilidad de que ocurra un evento, dado que ya ha ocurrido otro evento (por suposición, presunción, afirmación o evidencia). Veamos:  
+
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-8
+        p(data-aos="fade-down") Si el evento de interés es A y se sabe o se supone que ocurrió el evento B, “la probabilidad condicional de A dado B “, o “la probabilidad de A bajo la condición B “, generalmente se escribe como P (A | B) y ocasionalmente PB(A). Esto también se puede entender como la fracción de probabilidad B que se cruza con A: 
+      .col-lg-4
+        img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/curso/temas/img147.svg', alt='')
+
+    .row.justify-content-start.align-items-center.mt-5       
+      .col-lg-2.green-p.p-3(data-aos="fade-down")
+        p(data-aos="fade-down").mb-0.text-white #[b Por ejemplo…] 
+
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-8
+        p(data-aos="fade-down") La probabilidad de que una persona determinada tenga tos en un día determinado puede ser solo del 5%. Pero si sabemos o asumimos que la persona está enferma, es mucho más probable que esté tosiendo. Por ejemplo, la probabilidad condicional de que alguien no esté bien tosiendo podría ser del 75%, en cuyo caso tendríamos que P (Tos) = 5% y P (Tos | Enfermo) = 75%. Aunque, no tiene que haber relación o dependencia entre A y B, y no tienen que ocurrir simultáneamente. 
+        .row.justify-content-start.align-items-center.mt-5       
+          .col-lg-4.green-p.p-3(data-aos="fade-down")
+            p(data-aos="fade-down").mb-0.text-white #[b Teniendo en cuenta que… ]
+        p(data-aos="fade-down").mt-5 P (A | B) puede o no ser igual a P (A) (la probabilidad incondicional de A). Si P (A | B) = P (A), entonces se dice que los eventos A y B son independientes: en tal caso, el conocimiento sobre cualquiera de los eventos no altera la probabilidad de los demás. P (A | B) (la probabilidad condicional de A dado B) típicamente difiere de P (B | A). 
+
+      .col-lg-4
+        img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/curso/temas/img148.svg', alt='')
+
+    .row.justify-content-center.align-items-center
+      .col-lg-4
+        img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/curso/temas/img149.svg', alt='')    
+      .col-lg-8
+        .row.justify-content-start.align-items-center.mt-4       
+          .col-lg-2.green-p.p-3(data-aos="fade-down")
+            p(data-aos="fade-down").mb-0.text-white #[b Por ejemplo…]      
+        p(data-aos="fade-down").mt-4 Si una persona tiene fiebre del dengue, podría tener 90% de probabilidades de dar positivo en la prueba de la enfermedad. En este caso, lo que se está midiendo es que si ha ocurrido el evento B (tener dengue), la probabilidad de A (resultado positivo) dado que B ocurrió es del 90%: P (A | B) = 90%. Alternativamente, si una persona da positivo en la prueba del dengue, es posible que solo tenga 15% de probabilidades de tener esta rara enfermedad debido a las altas tasas de falsos positivos. 
+
+        .row.justify-content-start.align-items-center.mt-4       
+          .col-lg-2.green-p.p-3(data-aos="fade-down")
+            p(data-aos="fade-down").mb-0.text-white #[b En este caso…]
+        p(data-aos="fade-down").mt-4 La probabilidad del evento B (tener dengue) dado que el evento A (resultado positivo) que ha ocurrido es 15%: P (B | A) = 15% Ahora debería ser evidente que igualar falsamente las dos probabilidades puede conducir a varios errores de razonamiento, lo que comúnmente se ve a través de falacias de tasa base.
+
+    .row.justify-content-center.align-items-center.mt-2 
+      .col-lg-8
+        .row.justify-content-start.align-items-center.mt-5       
+          .col-lg-11.green-p.p-3(data-aos="fade-down")
+            p(data-aos="fade-down").mb-0.text-white #[b Si bien las probabilidades condicionales pueden proporcionar información extremadamente útil…]      
+        p(data-aos="fade-down").mt-4 A menudo se proporciona o se dispone de información limitada. Por lo tanto, puede ser útil revertir o convertir una probabilidad de condición usando el teorema de Bayes:
+
+        img.img-t.img-a.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/img150.svg', alt='')   
+
+        p(data-aos="fade-down").mt-4 Otra opción es mostrar probabilidades condicionales en una tabla de probabilidad condicional para iluminar la relación entre eventos.
+
+      .col-lg-4
+        img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/curso/temas/img151.svg', alt='')   
+
+    Separador 
+    #t_1_9.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.9 Combinatoria: variaciones, permutaciones y combinaciones 
+
+    .row.justify-content-center.align-items-center.mt-2 
+      .col-lg-4
+        img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/curso/temas/img152.svg', alt='') 
+      .col-lg-8
+        p(data-aos="fade-down") La combinatoria se ocupa de conjuntos finitos y sus objetos básicos son permutaciones, variaciones y combinaciones (y se refieren tanto a las operaciones como a los resultados de estas operaciones). Dado que siempre es posible identificar m y n elementos conjuntos con los conjuntos {1, 2, …, m} y {1, 2, …, n}, es suficiente considerar estos conjuntos, y esta situación es una a uno estándar. Recordamos estas tres nociones (en sus dos apariencias: cuándo se permiten las repeticiones y cuándo no). 
+
+    p(data-aos="fade-down") Esto se hace comenzando con variaciones sin repeticiones (validando esta decisión por una relación directa con la cardinalidad de todos los mapas finitos), aunque se podría comenzar con combinaciones o con permutaciones. Al cumplir con la permutación, hay que prestar una especial atención a las operaciones con factorial.
+
+    .tarjeta.color-secundario.p-3.mt-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/book.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              p.mb-0 #[b En el Anexo 5 - Combinatoria - Variaciones, permutaciones y combinaciones], se encuentran las respectivas fórmulas para un caso determinado y su respectivo ejemplo.
+            .col-sm-auto
+              a.boton.color-primario(:href="obtenerLink('downloads/anexo_5_combinatoria_variaciones_permutaciones_y_combinaciones.pdf')" target="_blank")
+                span Descargar PDF
+                i.fas.fa-file-download
+
+
 </template>
 
 <script>
