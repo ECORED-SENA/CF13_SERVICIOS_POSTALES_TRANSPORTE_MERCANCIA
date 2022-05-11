@@ -1,1 +1,1 @@
-module.exports = 'Procesamiento y análisis de datos'
+module.exports = 'Informe de resultados'

@@ -16,7 +16,7 @@
 
     Separador 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 2.1. Métodos de investigación 
+      h2 2.1. Métodos de investigación: métodos sintéticos, métodos analíticos, métodos inductivos, métodos deductivos, métodos comparativos
     .row.justify-content-center.align-items-center.mt-5           
       .col-lg-4.imgs-flotantes1.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img153.jpg', alt='')
@@ -172,7 +172,7 @@
 
           .row.justify-content-center.align-items-center.pb-4(numero="6" titulo="Procesamiento en tiempo real")
             .col-11
-              p Esta es una técnica de procesamiento de datos especializada en la que varias computadoras (que están ubicadas de forma remota) permanecen interconectadas con una sola computadora host que forma una red de computadoras. 
+              p Esta es una técnica de procesamiento de datos especializada en la que varias computadoras (que están ubicadas de forma remota) permanecen interconectadas con una sola computadora #[i host] que forma una red de computadoras. 
               .cajon.color-primario.p-4.mt-4
                 p.mb-0 Todos estos sistemas informáticos permanecen interconectados con una red de comunicaciones de alta velocidad. Esto facilita la comunicación entre computadoras, sin embargo, el sistema informático central mantiene la base de datos maestra y supervisa en consecuencia.              
       .col-lg-5(data-aos="fade-right")
@@ -230,10 +230,10 @@
             .col-lg-5.imgs-flotantes2
               .row.justify-content-start.align-items-center.ps-3(data-aos="flip-down")     
                 .col-lg-6.bg-modal-p3.p-2
-                  h5.mb-0.text-white #[b La visualización de datos…]                                      
+                  h5.mb-0.text-white #[b La visualización de datos]                                      
               .color-fondo-text4.bg-color.mt-4
                 .color-fondo-text4__texto        
-                  p es el proceso de convertir sus datos en representaciones gráficas que comunican relaciones lógicas y conducen a una toma de decisiones más informada.
+                  p Es el proceso de convertir sus datos en representaciones gráficas que comunican relaciones lógicas y conducen a una toma de decisiones más informada.
 
                 img.img-flotante2.d-none.d-lg-block.mt-5(src='@/assets/curso/temas/sobre.svg', alt='Imagen decorativa')                       
 
@@ -595,39 +595,39 @@
 
     Separador 
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 2.4 Herramientas software más conocidas para procesar, graficar y analizar datos
+      h2 2.4 Herramientas <em>software</em> más conocidas para procesar, graficar y analizar datos
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-4.imgs-flotantes.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img185.jpg', alt='')
         img.img-flotante(data-aos="zoom-in")(src='@/assets/curso/temas/box.svg', alt='Imagen decorativa')
       .col-lg-8
-        p(data-aos="fade-down") Las herramientas de software de análisis de datos permiten a las empresas analizar grandes almacenes de datos para obtener una gran ventaja competitiva. El software de análisis de datos puede extraer datos que rastrean una amplia gama de actividades comerciales, desde las ventas actuales hasta el inventario histórico, y procesarlos en función de las consultas de los científicos de datos.
-        p(data-aos="fade-down") Muchas tecnologías relacionadas permiten que el software de análisis cree sus resultados. Principalmente, estos incluyen herramientas de almacenamiento de datos, herramientas ETL, y - ahora más a menudo - el cálculo de la nube de infraestructura. Estas herramientas permiten conocer los datos que van desde el análisis predictivo, la inteligencia empresarial (un término que a menudo se usa indistintamente con el análisis de datos) y los datos estructurados y no estructurados. 
+        p(data-aos="fade-down") Las herramientas de <em>software</em> de análisis de datos permiten a las empresas analizar grandes almacenes de datos para obtener una gran ventaja competitiva. El <em>software</em> de análisis de datos puede extraer datos que rastrean una amplia gama de actividades comerciales, desde las ventas actuales hasta el inventario histórico, y procesarlos en función de las consultas de los científicos de datos.
+        p(data-aos="fade-down") Muchas tecnologías relacionadas permiten que el <em>software</em> de análisis cree sus resultados. Principalmente, estos incluyen herramientas de almacenamiento de datos, herramientas ETL, y - ahora más a menudo - el cálculo de la nube de infraestructura. Estas herramientas permiten conocer los datos que van desde el análisis predictivo, la inteligencia empresarial (un término que a menudo se usa indistintamente con el análisis de datos) y los datos estructurados y no estructurados. 
 
     .cajon.color-primario.p-4.mt-5(data-aos="flip-down")
       p(data-aos="fade-down").mb-0 A medida que las herramientas de análisis evolucionan, utilizan cada vez más la inteligencia artificial y el aprendizaje automático. Esta IA y ML permiten “análisis aumentados”, lo que significa que los resultados de las consultas tienen mayor profundidad y detalle debido a las tecnologías avanzadas.
          
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-8
-        p(data-aos="fade-down") Los resultados de una consulta de datos se muestran en un software de análisis de datos mediante un panel visual elaborado, generalmente con una serie de cuadros y gráficos codificados por colores que ilustran las líneas de tendencia empresarial. Estos cuadros de mando se pueden personalizar en función de las aportaciones del personal. También se pueden modificar con el tiempo para producir una representación más específica.
-        p(data-aos="fade-down") Estas visualizaciones de datos en tiempo real son ahora un dispositivo de navegación fundamental para la mayoría de las empresas. Muchos factores están impulsando el crecimiento del mercado de software de análisis de datos, pero, en resumen: en la actualidad, apenas existe una empresa que pueda competir de manera efectiva sin la información de las herramientas de software de análisis de datos.
+        p(data-aos="fade-down") Los resultados de una consulta de datos se muestran en un <em>software</em> de análisis de datos mediante un panel visual elaborado, generalmente con una serie de cuadros y gráficos codificados por colores que ilustran las líneas de tendencia empresarial. Estos cuadros de mando se pueden personalizar en función de las aportaciones del personal. También se pueden modificar con el tiempo para producir una representación más específica.
+        p(data-aos="fade-down") Estas visualizaciones de datos en tiempo real son ahora un dispositivo de navegación fundamental para la mayoría de las empresas. Muchos factores están impulsando el crecimiento del mercado de <em>software</em> de análisis de datos, pero, en resumen: en la actualidad, apenas existe una empresa que pueda competir de manera efectiva sin la información de las herramientas de <em>software</em> de análisis de datos.
           
       .col-lg-4.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img185.jpg', alt='')
 
     .row.justify-content-start.align-items-center         
       .col-lg-5.blue-p.p-3(data-aos="fade-down")
-        p(data-aos="fade-down").mb-0.text-white #[b Cómo seleccionar herramientas de software de análisis de datos:]
+        p(data-aos="fade-down").mb-0.text-white #[b Cómo seleccionar herramientas de #[i software] de análisis de datos:]
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-4.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img185.jpg', alt='')    
       .col-lg-8
-        p(data-aos="fade-down") Cualquiera que entienda el mercado de software de análisis de datos le dirá que seleccionar una solución de software de análisis de datos es complicado. Mucho. Es complejo porque el software es complejo y solo se vuelve más complejo con el tiempo. Y es complicado por cómo debe encajar en su negocio; Se debe sopesar cualquier cantidad de variables matizadas para que una herramienta de software de análisis de datos se adapte bien a su organización.
+        p(data-aos="fade-down") Cualquiera que entienda el mercado de <em>software</em> de análisis de datos le dirá que seleccionar una solución de <em>software</em> de análisis de datos es complicado. Mucho. Es complejo porque el <em>software</em> es complejo y solo se vuelve más complejo con el tiempo. Y es complicado por cómo debe encajar en su negocio; Se debe sopesar cualquier cantidad de variables matizadas para que una herramienta de <em>software</em> de análisis de datos se adapte bien a su organización.
           
         .row.justify-content-start.align-items-center.mt-5       
           .col-lg-7.green-p.p-3(data-aos="fade-down")
-            p(data-aos="fade-down").mb-0.text-white #[b Principales Herramientas de software de análisis de datos:] 
+            p(data-aos="fade-down").mb-0.text-white #[b Principales Herramientas de #[i software] de análisis de datos:] 
 
         .row.justify-content-center.align-items-center.mt-4
           .col-lg-4
@@ -675,9 +675,9 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h5.mb-1 Para tener una idea más clara y profunda de esta temática, diríjase al
-              p.mb-0 #[b Anexo 6 ]- Principales herramientas y software de análisis de datos 2021.
+              p.mb-0 #[b Anexo 6 ]- Principales herramientas y <em>software</em> de análisis de datos 2021.
             .col-sm-auto
-              a.boton.color-primario(:href="obtenerLink('downloads/anexo_6_principales_herramientas_y_software_de_analisis_de_datos_2021.pdf')" target="_blank")
+              a.boton.color-primario(:href="obtenerLink('downloads/anexo_6_principales_herramientas_y_<em>software</em>_de_analisis_de_datos_2021.pdf')" target="_blank")
                 span Descargar PDF
                 i.fas.fa-file-download                
 

@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Procesamiento y análisis de datos',
+    componenteFormativo: 'Informe de resultados',
     descripcionCurso:
       'Un sistema de gestión eficiente es cuando los indicadores obtenidos son el resultado de un adecuado procesamiento y análisis de los datos. Es necesario desarrollar conocimiento y habilidades en diferentes métodos de procesamiento y análisis de datos para tener gran variedad al momento de determinar cuál es el adecuado dependiendo de los requerimientos del sistema.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),

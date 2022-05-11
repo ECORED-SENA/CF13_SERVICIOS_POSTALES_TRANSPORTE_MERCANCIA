@@ -42,6 +42,8 @@
             .cajon.color-primario.p-4.mb-4(data-aos="flip-down")
               p(data-aos="fade-down").mb-0 Encontrar la media es muy sencillo. Simplemente sume todos los valores y divídalos por el número de observaciones; la fórmula se indica a continuación. 
             img.img-a.img-t.pb-5(data-aos="zoom-in")(src='@/assets/curso/temas/img3.svg', alt='')
+            p(data-aos="fade-down") Por ejemplo, si las estaturas de cinco personas son 48, 51, 52, 54 y 56 pulgadas, su altura promedio es de 52,2 pulgadas.
+            p(data-aos="fade-down").text-center.pb-4 48 + 51 + 52 + 54 + 56/5 = 52,2
       .col-lg-4.my-2           
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img4.png', alt='')
 
@@ -51,16 +53,13 @@
 
     p(data-aos="fade-down").mt-5 La media indica la región donde caen la mayoría de los valores en una distribución. Los estadísticos se refieren a ella como la ubicación central de una distribución. Puede pensar en ello como la tendencia de los datos a agruparse en torno a un valor medio. Sin embargo, la media no siempre encuentra el centro de los datos. Es sensible a datos sesgados y valores extremos. Por ejemplo, cuando los datos están sesgados, pueden fallar.
 
-    .row.justify-content-center.align-items-center.mt-5         
-      .col-lg-12.col-color1.px-0.pb-3
+    .row.justify-content-start.align-items-center.mt-5         
+      .col-lg-5.col-color1.px-0
         ol.lista-ol--cuadro(data-aos="fade-left")
           li 
             .lista-ol--cuadro__vineta
               span b
             p.mb-0.mt-1 #[b Tipos de medias]
-        .row.justify-content-center.align-items-center         
-          .col-11
-            p(data-aos="fade-down") La media resume un conjunto de datos completo con un solo número que representa el punto central de los datos o el valor típico. También se conoce como promedio aritmético y es una de varias medidas de tendencia central.
 
     .row.justify-content-center.align-items-center.mt-5           
       .col-lg-5.my-3
@@ -166,7 +165,7 @@
 
                 .row.justify-content-center.align-items-center(numero="2" titulo="Número par de observaciones")
                   .col-11
-                    p sin embargo, en nuestro caso tenemos 12 observaciones, que es un número par. Esto significa que debemos tomar las dos observaciones del centro y promediarlas. En este caso, las dos observaciones en el medio son 42 y 49. Cuando tomamos el promedio de estos dos números (para hacer un promedio, sume los dos números (42 + 49 = 91) y divida ese número por la cuenta, que en este caso es 2), obtenemos 45,5. Entonces nuestra mediana es 45,5. 
+                    p Sin embargo, en nuestro caso tenemos 12 observaciones, que es un número par. Esto significa que debemos tomar las dos observaciones del centro y promediarlas. En este caso, las dos observaciones en el medio son 42 y 49. Cuando tomamos el promedio de estos dos números (para hacer un promedio, sume los dos números (42 + 49 = 91) y divida ese número por la cuenta, que en este caso es 2), obtenemos 45,5. Entonces nuestra mediana es 45,5. 
                     img.img-a.img-t.mb-3.mt-4(src='@/assets/curso/temas/img22.svg', alt='')
                     img.img-a.img-t(src='@/assets/curso/temas/img23.svg', alt='')
 
@@ -232,8 +231,8 @@
                   .col-lg-5.imgs-flotantes2                        
                     .color-fondo-text4.bg-color
                       .color-fondo-text4__texto        
-                        p Para una muestra de una distribución continua, como [0.935 …, 1.211 …, 2.430 …, 3.668 …, 3.874 …], el concepto es inutilizable en su forma bruta, ya que no hay dos valores será exactamente el mismo, por lo que cada valor ocurrirá exactamente una vez. Para estimar la moda de la distribución subyacente, la práctica habitual es discretizar los datos asignando valores de frecuencia a intervalos de igual distancia, como para hacer un histograma, reemplazando efectivamente los valorpico. es por los puntos medios de los intervalos a los que están asignados.  
-                      img.img-flotante2.d-none.d-lg-block.mt-5(src='@/assets/curso/temas/sobre.svg', alt='Imagen decorativa')                       
+                        p Para una muestra de una distribución continua, como [0.935 ..., 1.211 ..., 2.430 ..., 3.668 ..., 3.874 ...], el concepto es inutilizable en su forma bruta, ya que no hay dos valores será exactamente el mismo, por lo que cada valor ocurrirá exactamente una vez. Para estimar la moda de la distribución subyacente, la práctica habitual es discretizar los datos asignando valores de frecuencia a intervalos de igual distancia, como para hacer un histograma, reemplazando efectivamente los valores por los puntos medios de los intervalos a los que están asignados. El modo es, entonces, el valor en el que el histograma alcanza su pico. 
+                      img.img-flotante2.d-none.d-lg-block.mt-3(src='@/assets/curso/temas/sobre.svg', alt='Imagen decorativa')                       
 
                 .row.justify-content-center.align-items-center.pb-5
                   .col-lg-5.imgs-flotantes2                      
@@ -446,8 +445,6 @@
         .cajon.color-primario.p-4.mt-4(data-aos="flip-down")
           p(data-aos="fade-down").mb-0 Como ejemplo típico de distribución bidimensional, se pueden tomar los errores de precisión del fuego de artillería. El error total se compone de dos desviaciones independientes: error en la distancia de disparo X y desviación lateral Y de la dirección de disparo. Un número tan relativamente pequeño de puntos clasifica esta distribución entre las distribuciones discretas.
 
-    p(data-aos="fade-down").mt-5 y otra de momento para el tema de:
-
     .row.justify-content-start.align-items-center.mt-5(data-aos="fade-right")
       .col-lg-2.bg-modal-p2.p-3
         h3.mb-0.text-white #[b Correlación]
@@ -525,13 +522,13 @@
             .row.m-0.align-items-center.justify-content-between
               .col-lg-12
                 .bloque-texto-a__texto.p-4
-                  p.mb-0 El software no es solo para buscar filtros de caras divertidas o aprender nuevos movimientos de baile. Puede ayudar a su equipo a aumentar su eficiencia y ser más productivo y capaz en su trabajo. Una solución de software personalizada puede ayudar a eliminar el cuello de botella del seguimiento de los recibos y gastos del personal, o puede facilitar que su equipo administre los contactos de marketing.
+                  p.mb-0 El <em>software</em> no es solo para buscar filtros de caras divertidas o aprender nuevos movimientos de baile. Puede ayudar a su equipo a aumentar su eficiencia y ser más productivo y capaz en su trabajo. Una solución de <em>software</em> personalizada puede ayudar a eliminar el cuello de botella del seguimiento de los recibos y gastos del personal, o puede facilitar que su equipo administre los contactos de <em>marketing</em>.
  
           .row.justify-content-center.align-items-center.mt-5     
             .col-lg-2.my-2              
               img.img-a.img-t(src='@/assets/curso/temas/img49.svg', alt='')
             .col-lg-10 
-              h5.mb-0 Y el software personalizado también puede servir como una solución para sus clientes. Por ejemplo, una opción de chat en vivo en su sitio web proporciona un contacto inmediato para clientes o prospectos con una necesidad urgente o que están listos para realizar una compra. Un software personalizado también podría ayudar a sus clientes a rastrear a su representante de servicio en el camino a su hogar, o enviar una solicitud de soporte técnico.
+              h5.mb-0 Y el <em>software</em> personalizado también puede servir como una solución para sus clientes. Por ejemplo, una opción de chat en vivo en su sitio web proporciona un contacto inmediato para clientes o prospectos con una necesidad urgente o que están listos para realizar una compra. Un <em>software</em> personalizado también podría ayudar a sus clientes a rastrear a su representante de servicio en el camino a su hogar, o enviar una solicitud de soporte técnico.
  
       .row.justify-content-center.align-items-center.pb-4(titulo="Diagramas de dispersión")
         .col-11
@@ -769,7 +766,7 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    p.text-small.mb-0 #[b Anexo 1] - En el Anexo 3 - Distribuciones continuas encontrarán una tabla que ofrece una descripción general de varias distribuciones continuas que se usan comúnmente en el modelado de análisis de riesgos, de modo que pueda enfocarse más fácilmente en cuáles podrían ser las más apropiadas para sus necesidades de modelado. Siga los enlaces para obtener una explicación detallada de cada uno. Se ha utilizado el nombre más común para cada distribución..
+                    p.text-small.mb-0 #[b Anexo 2] - En el Anexo 2 - Distribuciones continuas encontrarán una tabla que ofrece una descripción general de varias distribuciones continuas que se usan comúnmente en el modelado de análisis de riesgos, de modo que pueda enfocarse más fácilmente en cuáles podrían ser las más apropiadas para sus necesidades de modelado. Siga los enlaces para obtener una explicación detallada de cada uno. Se ha utilizado el nombre más común para cada distribución..
                   .col-sm-auto
                     a.boton.color-primario(:href="obtenerLink('downloads/anexo_3_distribuciones_continuas.pdf')" target="_blank")
                       span Descargar PDF
@@ -805,7 +802,7 @@
             .row.m-0.align-items-center.justify-content-between
               .col-lg-12
                 .bloque-texto-a__texto.p-4
-                  p.mb-0 Las ciudades costeras tienden a tener temperaturas mucho más estables debido a la regulación de grandes masas de agua, ya que el agua tiene una mayor capacidad calorífica que la Tierra; esencialmente, esto hace que el agua sea mucho menos susceptible a los cambios de temperatura, y las áreas costeras permanecen más cálidas en invierno y más frescas en verano debido a la cantidad de energía requerida para cambiar la temperatura del agua. 
+                  p.mb-0 Cualquier combinación lineal de una colección fija de desviaciones normales es una desviación normal. Muchos resultados y métodos, como la propagación de la incertidumbre y el ajuste de parámetros por mínimos cuadrados, pueden derivarse analíticamente de forma explícita cuando las variables relevantes se distribuyen normalmente. Una distribución normal a veces se denomina informalmente curva de campana. Sin embargo, muchas otras distribuciones tienen forma de campana (como las distribuciones de Cauchy, de Student y logística).
  
           .tarjeta.color-secundario.p-3.mt-5
             .row.justify-content-around.align-items-center
@@ -835,10 +832,13 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/abrctmXaS4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p(data-aos="fade-down").mt-5 Y ahora se sugiere complementar la información con la siguiente presentación.
-
+     
     .row.justify-content-start.align-items-start.mt-5     
       .col-lg-7 
-        LineaTiempoD.color-acento-contenido
+        .row.justify-content-start.align-items-center.ps-3      
+          .col-lg-12.green-p.p-3(data-aos="fade-down")
+            p(data-aos="fade-down").mb-0.text-white #[b Tipos de muestreo más comunes]      
+        LineaTiempoD.color-acento-contenido.mt-4
           .row(numero="1" titulo="Muestreo aleatorio")
             .col-11
               .row.justify-content-center.align-items-center.mt-5 
@@ -874,18 +874,18 @@
                 p.mb-0 Este tipo de método de muestreo tiene un rango predefinido y, por lo tanto, esta técnica de muestreo es la que requiere menos tiempo. 
 
               img.img-a.img-t.my-4(src='@/assets/curso/temas/img87.svg', alt='') 
-
+              
               p Suponga que un auditor está revisando los controles internos relacionados con la cuenta de efectivo de una empresa y desea probar la política de la empresa que estipula que los cheques que superen los $ 10,000 deben estar firmados por dos personas. 
-
+              p La población consiste en cada cheque de la compañía que exceda los $ 10,000 durante el año fiscal, que, en este ejemplo, fue de 300. El auditor usa estadísticas de probabilidad y determina que el tamaño de la muestra debe ser el 20% de la población o 60 cheques. El intervalo de muestreo es 5 (300 controles / 60 controles de muestra)
               .row.justify-content-center.align-items-center.mt-4 
                 .col-lg-4.my-3
                   img.img-a.img-t(src='@/assets/curso/temas/img88.svg', alt='')           
                 .col-lg-8
                   p Por lo tanto, el auditor selecciona una de cada cinco verificaciones para probarlas. Suponiendo que no se encuentran errores en el trabajo de prueba de muestreo, el análisis estadístico le da al auditor una tasa de confianza del 95% de que el procedimiento de verificación se realizó correctamente. El auditor prueba la muestra de 60 cheques y no encuentra errores, por lo que concluye que el control interno sobre el efectivo está funcionando correctamente.
 
-          .row(numero="5" titulo="Ejemplo de muestreo de marketing")
+          .row(numero="5" titulo="Ejemplo de muestreo de <em>marketing</em>")
             .col-11
-              p Las empresas tienen como objetivo vender sus productos y/o servicios a los mercados objetivo. Antes de presentar productos al mercado, las empresas generalmente identifican las necesidades y deseos de su público objetivo. Para hacerlo, pueden emplear un muestreo de la población del mercado objetivo para obtener una mejor comprensión de esas necesidades para luego crear un producto y/o servicio que satisfaga esas necesidades. En este caso, recoger las opiniones de la muestra ayuda a identificar las  
+              p Las empresas tienen como objetivo vender sus productos y / o servicios a los mercados objetivo. Antes de presentar productos al mercado, las empresas generalmente identifican las necesidades y deseos de su público objetivo. Para hacerlo, pueden emplear un muestreo de la población del mercado objetivo para obtener una mejor comprensión de esas necesidades para luego crear un producto y / o servicio que satisfaga esas necesidades. En este caso, recoger las opiniones de la muestra ayuda a identificar las necesidades del conjunto.
       .col-lg-5.my-3
         img.img-a.img-t(src='@/assets/curso/temas/img82.jpg', alt='')
     
@@ -968,7 +968,7 @@
       .col-lg-7.bg-modal-p2.p-3
         h3.mb-0.text-white #[b Puntuaciones Z y ubicación dentro de la distribución de medias muestrales]
 
-    .row
+    .row.justify-content-center.align-items-center
       .col-lg-6.tarjeta-avatar-b.mt-5(data-aos="fade-left")
         .tarjeta-avatar-b__img
           img.m-top(src='@/assets/curso/temas/img100.svg' alt='AvatarTop')
@@ -982,7 +982,7 @@
           img.m-top(src='@/assets/curso/temas/img100.svg' alt='AvatarTop')
         .tarjeta.color-primario
           .p-4
-            p.tex-black Debe darse cuenta de que la media de una muestra individual probablemente no será idéntica a la media de su población; es decir, habrá algún “error” entre X y μ. Algunas medias de muestra estarán relativamente cerca de μ y otras relativamente lejos. El error estándar proporciona una medida de la distancia estándar entre X y μ.
+            p.tex-black Como siempre, una puntuación Z positiva indica una media muestral mayor que μ y una puntuación Z negativa corresponde a una media muestral menor que μ.
 
     .row.justify-content-start.align-items-center.mt-5(data-aos="fade-right")
       .col-lg-10.green-p.p-3
@@ -1078,7 +1078,7 @@
         .row.justify-content-center.align-items-center        
           .col-lg-11
             h5 Especifique la hipótesis nula
-            p La hipótesis alternativa (HA) es la afirmación de que existe un efecto o diferencia. Esta suele ser la hipótesis que el investigador está interesado en probar. La hipótesis alternativa puede ser unilateral (solo proporciona una dirección, por ejemplo, inferior) o bilateral. A menudo, utilizamos pruebas de dos caras incluso cuando nuestra verdadera hipótesis es unilateral, porque requiere más evidencia en contra de la hipótesis nula para aceptar la hipótesis alternativa.
+            p La hipótesis nula (H0) es una declaración de ningún efecto, relación o diferencia entre dos o más grupos o factores. En los estudios de investigación, un investigador suele estar interesado en refutar la hipótesis nula.
 
             .row.justify-content-start.align-items-center.mt-4
               .col-lg-2.green-p.p-2
@@ -1088,13 +1088,14 @@
                 ul.lista-ul--color
                   li 
                     i.fas.fa-caret-right
-                    p.mb-0 La tasa de éxito de la intubación difiere según la edad del paciente tratado (bilateral).
+                    p.mb-0 No hay diferencia en las tasas de intubación entre las edades de 0 a 5 años.
                   li 
                     i.fas.fa-caret-right
-                    p.mb-0 El tiempo hasta la reanimación de un paro cardíaco es menor para el grupo de intervención que para el control (unilateral).
+                    p.mb-0 Los grupos de intervención y control tienen la misma tasa de supervivencia (o la intervención no mejora la tasa de supervivencia).
                   li 
                     i.fas.fa-caret-right
-                    p.mb-0 Existe una asociación entre el tipo de lesión y si el paciente recibió o no una vía intravenosa en el entorno prehospitalario (bilateral).
+                    p.mb-0 No existe asociación entre el tipo de lesión y si el paciente recibió o no una vía intravenosa en el entorno prehospitalario.
+
      
       .tarjeta.color-secundario--borde.p-4(titulo="Especifique la hipótesis alternativa")    
         .row.justify-content-center.align-items-center        
@@ -1240,7 +1241,7 @@
           .col-lg-4.color2.p-4.br-white1
             img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img119.svg', alt='')
             h5.mt-2 Insesgado
-            p.mt-4 Tu valor esperado es igual al parámetro que se está estimando.
+            p.mt-4 Su valor esperado es igual al parámetro que se está estimando.
           .col-lg-4.color3.p-4.py-5.br-white1
             img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img120.svg', alt='')
             h5.mt-2 Eficiencia
