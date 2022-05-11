@@ -92,9 +92,9 @@
                 .col-lg-5.green-p.p-3(data-aos="fade-down")
                   p(data-aos="fade-down").mb-0.text-white #[b Media Armónica (HM)]
               p(data-aos="fade-down").my-4.ps-1 La media armónica es un promedio que es útil para conjuntos de números que se definen en relación con alguna unidad, como en el caso de la velocidad (es decir, distancia por unidad de tiempo):
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img8.svg', alt='')
+              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img8_1.svg', alt='')
               p(data-aos="fade-down").my-4 Por ejemplo, la media armónica de los cinco valores: 4, 36, 45, 50, 75 es:
-              img.img-a.img-t.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/img9.svg', alt='')  
+              img.img-a.img-t.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/img9_1.svg', alt='')  
 
           .row.justify-content-center.align-items-center
             .col-10.bg-slyder.py-3.px-4  
