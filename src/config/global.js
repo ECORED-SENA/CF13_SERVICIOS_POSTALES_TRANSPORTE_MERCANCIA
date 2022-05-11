@@ -50,7 +50,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Muestreo, distribución de medias muéstrales',
+            titulo: 'Muestreo, distribución de medias muestrales',
             hash: 't_1_4',
           },
           {

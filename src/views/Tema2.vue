@@ -605,7 +605,7 @@
         p(data-aos="fade-down") Muchas tecnologías relacionadas permiten que el <em>software</em> de análisis cree sus resultados. Principalmente, estos incluyen herramientas de almacenamiento de datos, herramientas ETL, y - ahora más a menudo - el cálculo de la nube de infraestructura. Estas herramientas permiten conocer los datos que van desde el análisis predictivo, la inteligencia empresarial (un término que a menudo se usa indistintamente con el análisis de datos) y los datos estructurados y no estructurados. 
 
     .cajon.color-primario.p-4.mt-5(data-aos="flip-down")
-      p(data-aos="fade-down").mb-0 A medida que las herramientas de análisis evolucionan, utilizan cada vez más la inteligencia artificial y el aprendizaje automático. Esta IA y ML permiten “análisis aumentados”, lo que significa que los resultados de las consultas tienen mayor profundidad y detalle debido a las tecnologías avanzadas.
+      p(data-aos="fade-down").mb-0 A medida que las herramientas de análisis evolucionan, utilizan cada vez más la inteligencia artificial y el aprendizaje automático. Esta  IA (Inteligencia artificial) y ML (Machine Learning) permiten “análisis aumentados”, lo que significa que los resultados de las consultas tienen mayor profundidad y detalle debido a las tecnologías avanzadas.
          
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-8
@@ -677,7 +677,7 @@
               h5.mb-1 Para tener una idea más clara y profunda de esta temática, diríjase al
               p.mb-0 #[b Anexo 6 ]- Principales herramientas y <em>software</em> de análisis de datos 2021.
             .col-sm-auto
-              a.boton.color-primario(:href="obtenerLink('downloads/anexo_6_principales_herramientas_y_<em>software</em>_de_analisis_de_datos_2021.pdf')" target="_blank")
+              a.boton.color-primario(:href="obtenerLink('downloads/anexo_6_principales_herramientas_y_software_de_analisis_de_datos_2021.pdf')" target="_blank")
                 span Descargar PDF
                 i.fas.fa-file-download                
 

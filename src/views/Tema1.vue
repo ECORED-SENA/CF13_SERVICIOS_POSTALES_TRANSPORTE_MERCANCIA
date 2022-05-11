@@ -530,7 +530,7 @@
             .col-lg-10 
               h5.mb-0 Y el <em>software</em> personalizado también puede servir como una solución para sus clientes. Por ejemplo, una opción de chat en vivo en su sitio web proporciona un contacto inmediato para clientes o prospectos con una necesidad urgente o que están listos para realizar una compra. Un <em>software</em> personalizado también podría ayudar a sus clientes a rastrear a su representante de servicio en el camino a su hogar, o enviar una solicitud de soporte técnico.
  
-      .row.justify-content-center.align-items-center.pb-4(titulo="Diagramas de dispersión")
+      .row.justify-content-center.align-items-center.pb-4(titulo="Rectas de regresión")
         .col-11
           p Están definidas de la siguiente manera:
           .row.justify-content-between.align-items-stretch.mt-5.col-color-4     
@@ -563,7 +563,7 @@
 
               .row.justify-content-start.align-items-center.mt-4.ps-3     
                 .col-lg-2.bg-modal-p3.p-2
-                  h3.mb-0.text-white.text-center #[b Dondé:]
+                  h3.mb-0.text-white.text-center #[b Donde:]
 
               p.mt-4 Y = la variable que está intentando predecir (variable dependiente).
               p X = la variable que está utilizando para predecir Y (variable independiente).
@@ -606,7 +606,7 @@
       .col-lg-2.bg-modal.p-3.my-3(data-aos="fade-left")
         a(@click="modal7 = true")
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img53.svg', alt='')
-          p.text-center.mb-0.mt-2 #[b Distribución binominal]
+          p.text-center.mb-0.mt-2 #[b Distribución binomial]
       .col-lg-2.bg-modal.p-3.my-3(data-aos="fade-down")
         a.indicador__container(@click="modal8 = true")
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img54.svg', alt='')
@@ -715,6 +715,8 @@
               img.img-a.img-t.mt-4(src='@/assets/curso/temas/img71.svg', alt='') 
             .col-lg-4.my-3
               img.img-a.img-t(src='@/assets/curso/temas/img69.svg', alt='')
+          p.mt-4 Ello significa que X tiene una distribución de Bernoulli con probabilidad de éxito π. Se puede demostrar algebraicamente que si se cumple la ecuación anterior entonces:      
+          img.img-a.img-t.mt-4(src='@/assets/curso/temas/img71_1.svg', alt='')               
           p.mt-5 Una forma más sencilla de llegar a estos resultados es tener en cuenta que dónde son variables aleatorias de Bernoulli. Entonces, por las propiedades aditivas de media y varianza, X= X1, X2, …, Xn donde X1, X2, …, Xn son variables aleatorias de Bernoulli. Entonces, por las propiedades aditivas de media y varianza,
           img.img-a.img-t.mt-4(src='@/assets/curso/temas/img72.svg', alt='')
 
@@ -821,7 +823,7 @@
 
     Separador 
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 1.4 Muestreo, distribución de medias muéstrales 
+      h2 1.4 Muestreo, distribución de medias muestrales
 
     p(data-aos="fade-down") Para este tema se invita a  revisar de qué trata el muestreo y la distribución de medias muestrales.
 
