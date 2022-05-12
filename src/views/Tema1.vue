@@ -479,7 +479,7 @@
 
           .titulo-sexto.color-acento-contenido.mt-5
             h5 Figura 2.
-            span a. Correlación débil. b. Correlación fuerte correlación inversa
+            span a. Correlación débil. b. Correlación fuerte. c. Correlación inversa. 
           img.img-a.img-t.mt-3(src='@/assets/curso/temas/img44.svg', alt='')
 
           .row.justify-content-start.align-items-center.ps-3.mt-5         
