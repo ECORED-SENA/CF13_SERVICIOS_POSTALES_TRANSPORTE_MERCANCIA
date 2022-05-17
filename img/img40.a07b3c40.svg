@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="263" height="179" viewBox="0 0 263 179">
+  <g id="Grupo_166639" data-name="Grupo 166639" transform="translate(-185 -8742)">
+    <path id="Trazado_197190" data-name="Trazado 197190" d="M10,0H45c5.523,0,10,2.738,10,6.116V148H0V6.116A4.181,4.181,0,0,1,.185,4.939C.906,2.218,5.029,0,10,0Z" transform="translate(393 8753)" fill="#43a99b"/>
+    <path id="Trazado_197186" data-name="Trazado 197186" d="M-8092.714-5463h-242.063" transform="translate(8540.454 14214.273)" fill="none" stroke="#12263f" stroke-width="1"/>
+    <path id="Trazado_197187" data-name="Trazado 197187" d="M-8147.4-5463h-187.375" transform="translate(8540.454 14249.13)" fill="none" stroke="#12263f" stroke-width="1"/>
+    <path id="Trazado_197188" data-name="Trazado 197188" d="M-8147.4-5463h-187.375" transform="translate(8540.454 14295.002)" fill="none" stroke="#12263f" stroke-width="1"/>
+    <path id="Trazado_197189" data-name="Trazado 197189" d="M-8147.4-5463h-187.375" transform="translate(8540.454 14329.367)" fill="none" stroke="#12263f" stroke-width="1"/>
+    <path id="Rectángulo_50017" data-name="Rectángulo 50017" d="M10,0H44A10,10,0,0,1,54,10V113a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(330 8788)" fill="#43a99b"/>
+    <path id="Rectángulo_50018" data-name="Rectángulo 50018" d="M10,0H44A10,10,0,0,1,54,10V68a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(267 8833)" fill="#43a99b"/>
+    <path id="Rectángulo_50019" data-name="Rectángulo 50019" d="M10,0H44A10,10,0,0,1,54,10V33a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(204 8868)" fill="#43a99b"/>
+    <text id="_40" data-name="40" transform="translate(185 8757)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">40</tspan></text>
+    <text id="_30" data-name="30" transform="translate(185 8790)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">30</tspan></text>
+    <text id="_20" data-name="20" transform="translate(185 8836)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">20</tspan></text>
+    <text id="_10" data-name="10" transform="translate(185 8872)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">10</tspan></text>
+    <text id="_0" data-name="0" transform="translate(191 8910)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">0</tspan></text>
+    <text id="Item_1" data-name="Item 1" transform="translate(213 8917)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Item 1</tspan></text>
+    <text id="Item_2" data-name="Item 2" transform="translate(275 8917)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Item 2</tspan></text>
+    <text id="Item_3" data-name="Item 3" transform="translate(337 8917)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Item 3</tspan></text>
+    <text id="Item_4" data-name="Item 4" transform="translate(400 8917)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Item 4</tspan></text>
+  </g>
+</svg>
